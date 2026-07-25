@@ -181,3 +181,10 @@ footer {
     object-fit: contain;
     border-radius: 50%;    /* Deixa a logo redondinha (opcional!) */
 }
+
+.minha-galeria img {
+  width: 30px;      /* Defina a largura desejada */
+  height: 40px;     /* Defina a altura desejada */
+  object-fit: cover; /* Corta a imagem na medida certa sem distorcer */
+  border-radius: 4px; /* Opcional: arredonda as bordas */
+}
