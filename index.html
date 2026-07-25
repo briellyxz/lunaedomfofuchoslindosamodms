@@ -398,6 +398,25 @@
 
 <footer class="bg-dark text-white text-center py-4 mt-5">
         <p class="mb-1">Colégio Estadual Inêz Vicente Borocz - Ensino Fund. e Médio</p>
-        <p class="mb-1">Ano: 2°BTEC | Acessado em: 20/07/2026</p>
+        <p class="mb-1">Ano: 2°BTEC | <span id="data-hora">Carregando...</span></p>
         <p class="mb-0">Aluno: Lorena Gabrielly Leal Cunha</p>
     </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+    <script>
+    function atualizarDataHora() {
+        const agora = new Date();
+
+        const dataFormatada = agora.toLocaleDateString('pt-BR');
+        const horaFormatada = agora.toLocaleTimeString('pt-BR');
+
+        document.getElementById('data-hora').innerHTML = 
+            `Acessado em: ${dataFormatada} às ${horaFormatada}`;
+    }
+
+    atualizarDataHora();
+
+    setInterval(atualizarDataHora, 1000);
+</script>
