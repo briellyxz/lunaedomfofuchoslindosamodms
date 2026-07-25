@@ -174,3 +174,10 @@ footer {
     }
 
 }
+/* Tamanho e ajuste da Logo */
+.logo-site {
+    height: 40px;          /* Altura ideal para o menu */
+    width: auto;           /* Mantém a proporção da imagem */
+    object-fit: contain;
+    border-radius: 50%;    /* Deixa a logo redondinha (opcional!) */
+}
