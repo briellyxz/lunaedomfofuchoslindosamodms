@@ -224,3 +224,13 @@ footer {
     color:#000000;
 }
 
+.btn-saber {
+    background-color: #ff4d6d; /* cor do botão */
+    color: white;              /* cor do texto */
+    border: none;
+}
+
+.btn-saber:hover {
+    background-color: #000000;
+    color: balck;
+}
