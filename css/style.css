@@ -1,12 +1,12 @@
 body {
 
-    background: #F56666;
+    background: #B02105;
 
     transition: .5s;
 
     font-family: "Fredoka", sans-serif;
 
-    background: linear-gradient(to bottom, #, #000000, #7A0000);
+    background: linear-gradient(to bottom, #B02105, #000000, #7A0000);
 
 }
 
@@ -94,7 +94,7 @@ footer {
 
 .dark {
 
-    background: #F56666;
+    background: #B02105;
 
     color: white;
 
@@ -108,7 +108,7 @@ footer {
 
 .dark .card {
 
-    background: ##F56666;
+    background: #F56666;
 
     color: white;
 
@@ -154,7 +154,7 @@ footer {
 .botao-tema:hover img {
 
     transform: rotate(20deg) scale(1.15);
-    box-shadow:0 0 15px ##F56666;
+    box-shadow:0 0 15px #F56666;
 
 }
 
