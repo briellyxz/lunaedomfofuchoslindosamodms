@@ -94,7 +94,7 @@ footer {
 
 .dark {
 
-    background: #520000;
+    background: ##F56666;
 
     color: white;
 
@@ -108,7 +108,7 @@ footer {
 
 .dark .card {
 
-    background: #520000;
+    background: ##F56666;
 
     color: white;
 
@@ -154,7 +154,7 @@ footer {
 .botao-tema:hover img {
 
     transform: rotate(20deg) scale(1.15);
-    box-shadow:0 0 15px #520000;
+    box-shadow:0 0 15px ##F56666;
 
 }
 
