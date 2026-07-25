@@ -1,12 +1,12 @@
 body {
 
-    background: #520000;
+    background: #F56666;
 
     transition: .5s;
 
     font-family: "Fredoka", sans-serif;
 
-    background: linear-gradient(to bottom, ##F56666, #000000, #7A0000);
+    background: linear-gradient(to bottom, #, #000000, #7A0000);
 
 }
 
@@ -94,7 +94,7 @@ footer {
 
 .dark {
 
-    background: ##F56666;
+    background: #F56666;
 
     color: white;
 
