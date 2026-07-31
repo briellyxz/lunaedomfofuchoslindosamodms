@@ -6,7 +6,7 @@ body {
 
     font-family: "Fredoka", sans-serif;
 
-    background: linear-gradient(to bottom, #FAA18F, #000000, #FAA18F);
+    background: linear-gradient(to bottom,#FAA18F , #000000, #FAA18F);
 
 }
 
@@ -236,14 +236,14 @@ footer {
 }
 
 body.dark {
-  background: #2b1f1a !important; /* Antigo #ca9f6e */
-  color: #f0e6df !important;       /* Garante que o texto fique claro para leitura */
+  background: ##701705 !important; /* Antigo #ca9f6e */
+  color: ##701705 !important;       /* Garante que o texto fique claro para leitura */
 }
 
 body.dark {
-  background: linear-gradient(to bottom, #231610, #38241b, #231610) !important; /* Antigo gradiente marrom */
+  background: linear-gradient(to bottom, #701705, #000000, #701705) !important; /* Antigo gradiente marrom */
 }
 
 body.dark .navbar {
-  background: #3d2218 !important; /* Antigo #e0a868 */
+  background: ##701705 !important; /* Antigo #e0a868 */
 }
