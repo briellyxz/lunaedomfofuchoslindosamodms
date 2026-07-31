@@ -164,16 +164,6 @@ footer {
 
 }
 
-
-@keyframes pulo{
-
-    50%{
-
-        transform:translateY(-15px);
-
-    }
-
-}
 /* Tamanho e ajuste da Logo */
 .logo-site {
     height: 40px;          /* Altura ideal para o menu */
@@ -246,4 +236,14 @@ body.dark {
 
 body.dark .navbar {
   background: #701705 !important; /* Antigo #e0a868 */
+}
+
+@keyframes pulo{
+
+    50%{
+
+        transform:translateY(-15px);
+
+    }
+
 }
