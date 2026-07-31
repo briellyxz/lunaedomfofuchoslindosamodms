@@ -234,3 +234,17 @@ footer {
     background-color: #000000;
     color: black;
 }
+
+/* --- MODO ESCURO --- */
+
+/* Escurece o fundo e o gradiente do body */
+body.dark {
+  background: #2b1f1a !important;
+  background: linear-gradient(to bottom, #2b1f1a, #120c09, #2b1f1a) !important;
+  color: #f0e6df !important;
+}
+
+/* Escurece a navbar */
+body.dark .navbar {
+  background: #3d2218 !important;
+}
