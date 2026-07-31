@@ -236,8 +236,8 @@ footer {
 }
 
 body.dark {
-  background: ##701705 !important; /* Antigo #ca9f6e */
-  color: ##701705 !important;       /* Garante que o texto fique claro para leitura */
+  background: #701705 !important; /* Antigo #ca9f6e */
+  color: #701705 !important;       /* Garante que o texto fique claro para leitura */
 }
 
 body.dark {
@@ -245,5 +245,5 @@ body.dark {
 }
 
 body.dark .navbar {
-  background: ##701705 !important; /* Antigo #e0a868 */
+  background: #701705 !important; /* Antigo #e0a868 */
 }
