@@ -80,6 +80,9 @@
 
                 </ul>
 
+                button id="btn-modo-escuro" class="btn btn-outline-light btn-sm" onclick="alternarModoEscuro()">Modo Escuro</button>
+        </div>
+
                 <button class="btn ms-3 botao-tema rounded-circle p-1" onclick="tema()">
                 
                     <img id="iconeTema" src="imagens/download (3).jpg" alt="Alterar tema">
@@ -420,3 +423,13 @@
 
     setInterval(atualizarDataHora, 1000);
 </script>
+
+function alternarModoEscuro() {
+            document.body.classList.toggle('modo-escuro');
+            var btn = document.getElementById('btn-modo-escuro');
+            if (btn) {
+                if (document.body.classList.contains('modo-escuro')) {
+                    btn.textContent = 'Modo Claro';
+                } else {
+                    btn.textContent = 'Modo Escuro';
+                }
