@@ -235,16 +235,15 @@ footer {
     color: black;
 }
 
-/* --- MODO ESCURO --- */
-
-/* Escurece o fundo e o gradiente do body */
 body.dark {
-  background: #2b1f1a !important;
-  background: linear-gradient(to bottom, #2b1f1a, #120c09, #2b1f1a) !important;
-  color: #f0e6df !important;
+  background: #2b1f1a !important; /* Antigo #ca9f6e */
+  color: #f0e6df !important;       /* Garante que o texto fique claro para leitura */
 }
 
-/* Escurece a navbar */
+body.dark {
+  background: linear-gradient(to bottom, #231610, #38241b, #231610) !important; /* Antigo gradiente marrom */
+}
+
 body.dark .navbar {
-  background: #3d2218 !important;
+  background: #3d2218 !important; /* Antigo #e0a868 */
 }
