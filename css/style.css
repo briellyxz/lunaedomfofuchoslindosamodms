@@ -6,13 +6,13 @@ body {
 
     font-family: "Fredoka", sans-serif;
 
-    background: linear-gradient(to bottom, #FAA18F, #000000, #7A0000);
+    background: linear-gradient(to bottom, #FAA18F, #000000, #FAA18F);
 
 }
 
 .navbar {
 
-    background: #7A0000;
+    background: #FAA18F;
 
 }
 
@@ -80,7 +80,7 @@ body {
 
 footer {
 
-    background: #7A0000;
+    background: #FAA18F;
 
     padding: 30px;
 
@@ -102,13 +102,13 @@ footer {
 
 .dark .navbar {
 
-    background: #7A0000;
+    background: #FAA18F;
 
 }
 
 .dark .card {
 
-    background: #F56666;
+    background: #FAA18F;
 
     color: white;
 
@@ -116,7 +116,7 @@ footer {
 
 .dark footer {
 
-    background: #7A0000;
+    background: #FAA18F;
 
 }
 
@@ -154,7 +154,7 @@ footer {
 .botao-tema:hover img {
 
     transform: rotate(20deg) scale(1.15);
-    box-shadow:0 0 15px #F56666;
+    box-shadow:0 0 15px #FAA18F;
 
 }
 
